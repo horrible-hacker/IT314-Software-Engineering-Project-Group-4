@@ -17,15 +17,7 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Search Bar */}
-        <form className="bg-slate-100 p-2 rounded-lg flex items-center">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="bg-transparent focus:outline-none w-24 sm:w-64 text-black"
-          />
-          <FaSearch className="text-slate-600" />
-        </form>
+        <div className='p-5'></div>
 
         {/* Navigation Links */}
         <ul className="flex items-center space-x-4">
